@@ -1829,57 +1829,68 @@ i.icon:before {
   height: 1.6em;
 }
 .highlight {
-  padding: 0.5em;
-  color: #333;
+  color: #f8f8f2;
+  background: #23241f;
 }
-.highlight .code .comment,
-.highlight .code .meta {
-  color: #969896;
+.highlight .code .highlight,
+.highlight .code .tag,
+.highlight .code .subst {
+  color: #f8f8f2;
 }
-.highlight .code .string,
-.highlight .code .variable,
-.highlight .code .template-variable,
 .highlight .code .strong,
-.highlight .code .emphasis,
-.highlight .code .quote {
-  color: #df5000;
+.highlight .code .emphasis {
+  color: #a8a8a2;
+}
+.highlight .code .bullet,
+.highlight .code .quote,
+.highlight .code .number,
+.highlight .code .regexp,
+.highlight .code .literal,
+.highlight .code .link {
+  color: #ae81ff;
+}
+.highlight .code .code,
+.highlight .code .title,
+.highlight .code .section,
+.highlight .code .selector-class {
+  color: #a6e22e;
+}
+.highlight .code .strong {
+  font-weight: bold;
+}
+.highlight .code .emphasis {
+  font-style: italic;
 }
 .highlight .code .keyword,
 .highlight .code .selector-tag,
-.highlight .code .type {
-  color: #a71d5d;
+.highlight .code .name,
+.highlight .code .attr {
+  color: #f92672;
 }
-.highlight .code .literal,
 .highlight .code .symbol,
-.highlight .code .bullet,
 .highlight .code .attribute {
-  color: #0086b3;
+  color: #66d9ef;
 }
-.highlight .code .section,
-.highlight .code .name {
-  color: #63a35c;
+.highlight .code .params,
+.highlight .code .class .title {
+  color: #f8f8f2;
 }
-.highlight .code .tag {
-  color: #333;
-}
-.highlight .code .title,
-.highlight .code .attr,
+.highlight .code .string,
+.highlight .code .type,
+.highlight .code .built_in,
+.highlight .code .builtin-name,
 .highlight .code .selector-id,
-.highlight .code .selector-class,
 .highlight .code .selector-attr,
-.highlight .code .selector-pseudo {
-  color: #795da3;
+.highlight .code .selector-pseudo,
+.highlight .code .addition,
+.highlight .code .variable,
+.highlight .code .template-variable {
+  color: #e6db74;
 }
-.highlight .code .addition {
-  color: #55a532;
-  background-color: #eaffea;
-}
-.highlight .code .deletion {
-  color: #bd2c00;
-  background-color: #ffecec;
-}
-.highlight .code .link {
-  text-decoration: underline;
+.highlight .code .comment,
+.highlight .code .deletion,
+.highlight .code .meta {
+  color: #75715e;
 }
 @media only screen and (min-width: 960px) {
   .nav-container-inner {
